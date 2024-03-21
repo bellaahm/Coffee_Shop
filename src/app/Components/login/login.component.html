@@ -1,0 +1,25 @@
+<div class="parent">
+    <!-- <div class="containercss"> -->
+        <div class="containercss" >
+        <div class="left-section"></div>
+        <div class="right-section">
+            <div class="login-container">
+                <form [formGroup]="myValidation" class="login-form">
+                    <h2 class="login-title"><i class="fas fa-user-circle"></i> Login</h2>
+                    <div class="myform-control">
+                        <i class="fas fa-user icon"></i>
+                        <input type="email" formControlName="email" placeholder="Useremail" id="useremail">
+                    </div>
+                    <div class="myform-control">
+                        <i class="fas fa-lock icon"></i>
+                        <input type="password" formControlName="password" placeholder="Password" id="password" >
+                    </div>
+                    <div class="social-login">
+                        <i class="fab fa-google social-icon" (click)="onGoogleLogin()"></i>
+                    </div>
+                    <button type="button" class="myButton" (click)="onLogin()">Login</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

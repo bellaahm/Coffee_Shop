@@ -1,0 +1,38 @@
+<div class="container-fluid fruite py-5" style="background-color: bisque; margin-top: 6rem;">
+    <div class="container py-5">
+        <div class="row g-4">
+            <div class="col-lg-12">
+                <div class="row g-4">
+                    <div class="col-lg-9">
+                        @if (FavProducts.length === 0) {
+                            <h3 class="text-center">No favorite products yet!</h3>
+                        }@else{
+                            <div class="row g-4 justify-content-center">
+                                <!--Mapping is here-->
+                                       @for(prd of FavProducts; track prd.id){
+                                          <div class="col-md-6 col-lg-6 col-xl-4" >
+                                              <div class="rounded position-relative fruite-item ">
+                                              <div class="fruite-img" style="height:300px">
+                                              <img src={{prd.image}} class="img-fluid w-100 h-100 rounded-top" alt="">
+                                          </div>
+                                          <div class="text-white bg-secondary px-2  rounded position-absolute " style="top: 10px; left: 10px;">{{prd.category}}</div>
+                                          <div class="p-1  border-top-0 rounded-bottom">
+                                              <h4 style="color:#58300d;">{{prd.title}}</h4>
+                                              <p style="color:bisque;">{{prd.description}}</p>
+                                              <div class="d-flex justify-content-evenly flex-lg-wrap ">
+                                                  <p class=" fs-5 fw-bold mb-0 text-secondary">{{prd.price}} $</p>
+                                                  <a href="#" class="btn border border-secondary rounded-pill px-3 text-white"><i class="fa fa-shopping-bag me-2 text-secondary "></i> Add to cart</a>
+                                            <button style="background-color:#b57945; border:1px solid #b57945"><i class="fa-solid fa-heart" style="color:#58300d;"></i></button> 
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                                   } 
+                                  </div>
+                        }
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>

@@ -1,0 +1,9 @@
+<div style="margin: 6rem; background-color: bisque;">
+
+<div class="d-flex flex-wrap  w-75 m-auto">
+    @for (prd of Products; track prd.id) {
+      <app-product [oneProduct] = "prd"></app-product>
+    }
+  </div>
+  <button class="btn btn-outline fs-2 mb-2" routerLink="/add" style="position: fixed;top: 200px; left: 100px; background-color: #58300d; color: white;">+</button>
+</div>

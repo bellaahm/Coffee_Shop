@@ -1,0 +1,475 @@
+{
+  "products": [
+    {
+      "title": "soda",
+      "description": "Black coffee is as simple as it gets with ground coffee beans soaked in hot water, served hot and  can be  with a dash of milk, cream . And if you want to sound fancy, you can call black coffee by its proper name: café noir.",
+      "ingredients": [
+        "coffee"
+      ],
+      "image": "https://images.unsplash.com/photo-1494314671902-399b18174975?auto=format&fit=crop&q=80&w=1887&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "category": "hot drinks",
+      "price": 300,
+      "id": "1"
+    },
+    {
+      "title": "Latte",
+      "description": "As the most popular coffee drink out there, the latte consists of a shot of espresso and steamed milk with just a touch of foam. It can be ordered unflavored or flavored with everything. you gonna like it .",
+      "ingredients": [
+        "Espresso",
+        "Steamed Milk"
+      ],
+      "image": "https://images.unsplash.com/photo-1561882468-9110e03e0f78?auto=format&fit=crop&q=60&w=800&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGxhdHRlfGVufDB8fDB8fHww",
+      "category": "hot drinks",
+      "price": 10,
+      "id": "2"
+    },
+    {
+      "title": "Cappuccino",
+      "description": "Cappuccino is a latte made with more foam than steamed milk, often with a sprinkle of cocoa powder or cinnamon on top. Sometimes you can find variations that use cream add flavorings .",
+      "ingredients": [
+        "Espresso",
+        "Steamed milk",
+        "Foam"
+      ],
+      "image": "https://images.unsplash.com/photo-1557006021-b85faa2bc5e2?auto=format&fit=crop&q=80&w=1887&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "id": "3",
+      "category": "hot drinks",
+      "price": 1.5,
+      "star": 4.5,
+      "description 2": "A cappuccino is a classic Italian coffee drink made with espresso, steamed milk, and milk foam. It is traditionally prepared with equal parts of each element, creating a beverage that is both strong and creamy with a delightful layer of foamy goodness on top. ",
+      "Country of Origin": "Brazil",
+      "quality": "grade B",
+      "reviews": [
+        {
+          "id": 5,
+          "rating": 5,
+          "author": "Amanda Green",
+          "date": "2024-02-24",
+          "text": "Exceptional latte art!",
+          "imageUrl": "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        {
+          "id": 6,
+          "rating": 2,
+          "author": "Chris Anderson",
+          "date": "2024-02-23",
+          "text": "Not impressed with the selection of teas.",
+          "imageUrl": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        }
+      ]
+    },
+    {
+      "title": "Hot Chocolate",
+      "description": "On cold winter days, a cup of hot chocolate makes you feel comfortable and happy. It also makes you feel good because it contains energizing caffeine that use cream add flavorings",
+      "ingredients": [
+        "Chocolate",
+        "Milk"
+      ],
+      "image": "https://images.unsplash.com/photo-1542990253-0d0f5be5f0ed?auto=format&fit=crop&q=60&w=800&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDh8fGhvdCUyMGNob2NvbGF0ZXxlbnwwfHwwfHx8MA%3D%3 D",
+      "id": "4",
+      "category": "hot drinks",
+      "price": 4.5,
+      "star": 3,
+      "description 2": "Hot chocolate is a warm, comforting beverage made with chocolate, milk, and sweetener. It's typically enjoyed on cold days or as a special treat. Here's a breakdown of its characteristics:",
+      "Country of Origin": "Colombia",
+      "quality": "grade A",
+      "reviews": [
+        {
+          "id": 7,
+          "rating": 5,
+          "author": "Olivia Taylor",
+          "date": "2024-02-22",
+          "text": "Perfect place to work or study with a cup of coffee.",
+          "imageUrl": "https://images.unsplash.com/photo-1619895862022-09114b41f16f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        {
+          "id": 8,
+          "rating": 4,
+          "author": "Daniel Miller",
+          "date": "2024-02-21",
+          "text": "Quality coffee beans make a noticeable difference.",
+          "imageUrl": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        }
+      ]
+    },
+    {
+      "title": "Ice Latte",
+      "description": "Iced latte is a chilled coffee drink made by mixing espresso and chilled milk. It is served with ice cubes and is also known as cafè latte iced or latte on the rocks.",
+      "ingredients": [
+        "Espresso",
+        "Milk",
+        "Ice",
+        "Syrup"
+      ],
+      "image": "https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?auto=format&fit=crop&q=60&w=800&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aWNlZCUyMGxhdHRlfGVufDB8fDB8fHww",
+      "id": "5",
+      "category": "iced drinks",
+      "price": 5.5,
+      "star": 3.5,
+      "description 2": "An iced latte is a refreshing coffee drink perfect for hot weather. It's made with espresso, milk, and ice. The espresso provides a strong coffee flavor, while the milk smooths it out and adds a touch of sweetness. The ice chills the drink down, making it perfect for a hot day.",
+      "Country of Origin": "Brazil",
+      "quality": "grade A",
+      "reviews": [
+        {
+          "id": 9,
+          "rating": 3,
+          "author": "Sophie Turner",
+          "date": "2024-02-20",
+          "text": "Average experience, nothing extraordinary.",
+          "imageUrl": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        {
+          "id": 10,
+          "rating": 5,
+          "author": "William Davis",
+          "date": "2024-02-19",
+          "text": "Friendly baristas and quick service.",
+          "imageUrl": "https://plus.unsplash.com/premium_photo-1664541336896-b3d5f7dec9a3?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        }
+      ]
+    },
+    {
+      "title": "Iced Coffee",
+      "description": "A coffee with ice, typically served with a dash of milk, cream or sweetener—iced coffee is really as simple as that.The espresso provides a strong coffee flavor with enriched ingredients",
+      "ingredients": [
+        "Coffee",
+        "Ice",
+        "Sugar*",
+        "Cream*"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Blue_Bottle%2C_Kyoto_Style_Ice_Coffee_%285909775445%29.jpg",
+      "id": "6",
+      "category": "iced drinks",
+      "price": 2.5,
+      "star": 4.5,
+      "description 2": "Iced coffee is a refreshing beverage made with coffee that is served cold. It's a popular drink, especially during hot weather. ",
+      "Country of Origin": "Colombia",
+      "quality": "grade C",
+      "reviews": [
+        {
+          "id": 11,
+          "rating": 4,
+          "author": "Eva Martinez",
+          "date": "2024-02-18",
+          "text": "Relaxing music and comfortable seating.",
+          "imageUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        {
+          "id": 12,
+          "rating": 5,
+          "author": "Benjamin Adams",
+          "date": "2024-02-17",
+          "text": "I love their specialty coffee blends!",
+          "imageUrl": "https://images.unsplash.com/photo-1499887142886-791eca5918cd?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        }
+      ]
+    },
+    {
+      "title": "Frapino Caramel",
+      "description": "It's a blended or rather shaken coffee with whipped cream on top. A must for hot summer days.The espresso provides a strong coffee flavor with enriched delicious ingredients",
+      "ingredients": [
+        "coffee",
+        "Ice",
+        "Milk",
+        "Caramel Syrup",
+        "Whipped cream*",
+        "Caramel Sauce"
+      ],
+      "image": "https://images.unsplash.com/photo-1662047102608-a6f2e492411f?auto=format&fit=crop&q=60&w=800&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZnJhcGlubyUyMGNhcmFtZWx8ZW58MHx8MHx8 fDA%3D",
+      "id": "7",
+      "category": "iced drinks",
+      "price": 3.5,
+      "star": 3.5,
+      "description 2": "Frapino Caramel appears to be a coffee-based blended beverage flavored with caramel, likely offered by the coffee shop chain Espresso House. ",
+      "Country of Origin": "Brazil",
+      "quality": "grade A",
+      "reviews": [
+        {
+          "id": 13,
+          "rating": 4,
+          "author": "Sophia Lee",
+          "date": "2024-02-16",
+          "text": "The caramel flavor is heavenly!",
+          "imageUrl": "https://images.unsplash.com/photo-1624561172888-ac93c696e10c?q=80&w=1889&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        {
+          "id": 14,
+          "rating": 3,
+          "author": "David Carter",
+          "date": "2024-02-15",
+          "text": "A bit too sweet for my liking.",
+          "imageUrl": "https://images.unsplash.com/photo-1605993439219-9d09d2020fa5?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        }
+      ]
+    },
+    {
+      "title": "Iced Espresso",
+      "description": " iced espresso can be served with a dash of milk, cream . You can also ice speciality espresso-based drinks like americanos, mochas, macchiatos and lattes",
+      "ingredients": [
+        "Espresso",
+        "Ice",
+        "Sugar*",
+        "Cream*"
+      ],
+      "image": "https://www.modernfarmhouseeats.com/wp-content/uploads/2021/06/brown-sugar-shaken-espresso-latte-13-660x990.jpg",
+      "id": "8",
+      "category": "iced drinks",
+      "price": 2.5,
+      "star": 2.5,
+      "description 2": "An iced espresso is a refreshing coffee drink made with espresso shots poured over ice. It's a bolder and more concentrated version of iced coffee, with a stronger coffee flavor and a thicker consistency. ",
+      "Country of Origin": "Colombia",
+      "quality": "grade B",
+      "reviews": [
+        {
+          "id": 15,
+          "rating": 2,
+          "author": "Tom Johnson",
+          "date": "2024-02-14",
+          "text": "Not a fan of the bitter taste.",
+          "imageUrl": "https://images.unsplash.com/photo-1544168190-79c17527004f?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        {
+          "id": 16,
+          "rating": 3,
+          "author": "Lily Smith",
+          "date": "2024-02-13",
+          "text": "Refreshing, but could use more sweetness.",
+          "imageUrl": "https://images.unsplash.com/photo-1530268729831-4b0b9e170218?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        }
+      ]
+    },
+    {
+      "title": "Chocolate Cake",
+      "description": "Indulge in the rich and decadent taste of chocolate with this moist and delightful chocolate cake. It's a bolder, with a stronger coffee flavor and a thicker consistency. you gonna like it .",
+      "ingredients": [
+        "Flour",
+        "Cocoa Powder",
+        "Sugar",
+        "Butter",
+        "Eggs",
+        "Milk",
+        "Vanilla Extract"
+      ],
+      "image": "https://images.unsplash.com/photo-1517427294546-5aa121f68e8a?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "id": "9",
+      "category": "desserts",
+      "price": 3.5,
+      "star": 4,
+      "description 2": "Chocolate cake is a classic dessert that is loved by people of all ages. Chocolate cake can be enjoyed on its own or served with ice cream, fruit, or whipped cream.",
+      "Country of Origin": "Brazil",
+      "quality": "grade A",
+      "reviews": [
+        {
+          "id": 17,
+          "rating": 5,
+          "author": "Natalie Miller",
+          "date": "2024-02-12",
+          "text": "Absolutely divine! Best chocolate cake in town.",
+          "imageUrl": "https://images.unsplash.com/photo-1546961329-78bef0414d7c?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        {
+          "id": 18,
+          "rating": 4,
+          "author": "Jason Brown",
+          "date": "2024-02-11",
+          "text": "Moist and rich, just the way I like it.",
+          "imageUrl": "https://plus.unsplash.com/premium_photo-1671656349322-41de944d259b?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        }
+      ]
+    },
+    {
+      "title": "Strawberry Cheesecake",
+      "description": "Enjoy the combination of creamy cheesecake and fresh strawberries. it has a mixed feeling between sour and sweet taste",
+      "ingredients": [
+        "Cream Cheese",
+        "Sugar",
+        "Eggs",
+        "Vanilla Extract",
+        "Strawberries",
+        "Graham Cracker Crust"
+      ],
+      "image": "https://images.unsplash.com/photo-1621955511667-e2c316e4575d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "id": "10",
+      "category": "desserts",
+      "price": 1.5,
+      "star": 3.5,
+      "description 2": "Strawberry cheesecake is a classic dessert that combines a rich, creamy cheese filling with a sweet and tart strawberry topping on a crumbly graham cracker crust. ",
+      "Country of Origin": "Colombia",
+      "quality": "grade A",
+      "reviews": [
+        {
+          "id": 19,
+          "rating": 3,
+          "author": "Emma Davis",
+          "date": "2024-02-10",
+          "text": "Not as flavorful as expected.",
+          "imageUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        {
+          "id": 20,
+          "rating": 4,
+          "author": "Michael White",
+          "date": "2024-02-09",
+          "text": "The perfect balance of sweetness and creaminess.",
+          "imageUrl": "https://images.unsplash.com/photo-1603415526960-f7e0328c63b1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        }
+      ]
+    },
+    {
+      "title": "Blueberry Muffins",
+      "description": "Start your day with these delicious and moist blueberry muffins, bursting with juicy blueberries in every bite. you gonna like it so much a delight",
+      "ingredients": [
+        "Flour",
+        "Blueberries",
+        "Sugar",
+        "Butter",
+        "Eggs",
+        "Milk",
+        "Baking Powder",
+        "Vanilla Extract"
+      ],
+      "image": "https://images.unsplash.com/photo-1607958996333-41aef7caefaa?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "id": "11",
+      "category": "desserts",
+      "price": 4.5,
+      "star": 3,
+      "description 2": "Blueberry muffins are a popular breakfast or snack treat. They are typically small, round cakes made with flour, sugar, eggs, butter, milk, and baking powder. They can be enjoyed plain or with a variety of toppings, such as streusel, glaze, or nuts.",
+      "Country of Origin": "Brazil",
+      "quality": "grade A",
+      "reviews": [
+        {
+          "id": 21,
+          "rating": 5,
+          "author": "Sophie Turner",
+          "date": "2024-02-08",
+          "text": "Perfectly moist and bursting with blueberries!",
+          "imageUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        {
+          "id": 22,
+          "rating": 3,
+          "author": "John Evans",
+          "date": "2024-02-07",
+          "text": "A bit too sweet for my taste.",
+          "imageUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        }
+      ]
+    },
+    {
+      "title": "Vanilla Ice Cream",
+      "description": "Cool down with the classic and creamy vanilla ice cream. Perfect on its own or as a delightful addition to your favorite desserts. you gonna like it so much",
+      "ingredients": [
+        "Heavy Cream",
+        "Milk",
+        "Sugar",
+        "Egg Yolks",
+        "Vanilla Extract"
+      ],
+      "image": "https://images.unsplash.com/photo-1570197788417-0e82375c9371?q=80&w=1912&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "id": "12",
+      "category": "desserts",
+      "price": 6.5,
+      "star": 4.5,
+      "description 2": "Vanilla ice cream is a classic and widely-loved flavor, often considered the quintessential ice cream experience. Its characteristic taste is sweet and creamy with a subtle, warm, and slightly floral note from the vanilla bean. ",
+      "Country of Origin": "Colombia",
+      "quality": "grade B",
+      "reviews": [
+        {
+          "id": 23,
+          "rating": 4,
+          "author": "Sophia Harris",
+          "date": "2024-02-06",
+          "text": "Creamy and delicious, a perfect treat!",
+          "imageUrl": "https://images.unsplash.com/flagged/photo-1573740144655-bbb6e88fb18a?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        {
+          "id": 24,
+          "rating": 5,
+          "author": "Daniel Wright",
+          "date": "2024-02-05",
+          "text": "Best vanilla ice cream in town!",
+          "imageUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "title": "fruity pancakes",
+      "description": "delicious pancakes topped with fresh fruits",
+      "ingredients": [
+        "flaour",
+        " eggs ",
+        " fresh fruits"
+      ],
+      "image": "https://www.lovefromtheoven.com/wp-content/uploads/2020/09/banana-pancakes-4.jpg",
+      "category": "dessert",
+      "price": 50
+    }
+  ],
+  "category": [
+    {
+      "id": "1",
+      "name": "hot drinks"
+    },
+    {
+      "id": "2",
+      "name": "iced drinks"
+    },
+    {
+      "id": "3",
+      "name": "desserts"
+    }
+  ],
+  "users": [
+    {
+      "id": "123",
+      "name": "John Doe",
+      "email": "john@gmail.com",
+      "Password": "1234567",
+      "isAdmin": false
+    },
+    {
+      "id": "456",
+      "name": "Alice Smith",
+      "email": "alice.smith@gmail.com",
+      "Password": "1234",
+      "isAdmin": false
+    },
+    {
+      "id": "789",
+      "name": "Bob Johnson",
+      "email": "bob.johnson@gmail.com",
+      "isAdmin": false
+    },
+    {
+      "id": "101",
+      "name": "Eva Davis",
+      "email": "eva.davis@gmail.com",
+      "Password": "123456",
+      "isAdmin": false
+    },
+    {
+      "id": "112",
+      "name": "Michael Brown",
+      "email": "michael.brown@gmail.com",
+      "Password": "1234",
+      "isAdmin": false
+    },
+    {
+      "id": "123",
+      "name": "Abdallah Atef",
+      "email": "abdallaatef12@gmail.com",
+      "Password": "123456789",
+      "isAdmin": true
+    },
+    {
+      "id": "522",
+      "name": "Amira Badawy",
+      "email": "amirabadawy2001@gmail.com",
+      "Password": "1234",
+      "isAdmin": true
+    }
+  ],
+  "cart": [],
+  "favourites": []
+}

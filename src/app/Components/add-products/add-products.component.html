@@ -1,0 +1,34 @@
+<div class="container-fluid " style="margin-top: 10rem; background-color: bisque;" >
+    <h1 class=" text-center" style="color: #58300d;">Add New Product</h1>
+    <form [formGroup]="myRegValid" class="form  m-2 p-5" style="width: 1591px">
+
+        <div class="form-group d-flex text-center m-auto mt-2 mb-2 w-25">
+            <input #title formControlName="title" type="text" class="form-control w-75" placeholder="Title">
+        </div>
+
+        <div class="form-group d-flex text-center m-auto mt-2 mb-2 w-25">
+            <input #description formControlName="description" type="text" class="form-control w-75 " placeholder="Description">
+        </div>
+
+        <div class="form-group d-flex text-center m-auto mt-2 mb-2 w-25">
+            <input #ingredients formControlName="ingredients" type="text" class="form-control w-75" placeholder="Ingredients">
+        </div>
+
+        <div class="form-group d-flex text-center m-auto mt-2 mb-2 w-25">
+            <input #image formControlName="image" type="text" class="form-control w-75" placeholder="Image URL">
+        </div>
+
+        <div class="form-group d-flex text-center m-auto mt-2 mb-2 w-25">
+            <input #category formControlName="category" type="text" class="form-control w-75" placeholder="Category">
+        </div>
+        <div class="form-group d-flex text-center m-auto mt-2 mb-2 w-25">
+            <input #price formControlName="price" type="text" class="form-control w-75" placeholder="Price">
+        </div>
+        <div class="form-group text-center m-auto mt-2 mb-2">
+
+            <button (click)="Addprd(title.value,description.value, ingredients.value, image.value,category.value,price.value)"
+                class="btn  mt-2 " style="margin-left: -95px; background-color: #58300d; color: white; ">ADD</button>
+
+        </div>
+    </form>
+</div>

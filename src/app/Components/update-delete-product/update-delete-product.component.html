@@ -1,0 +1,48 @@
+<div class="container-fluid mt-5">
+    <h1 class="text-center text-primary">Update Product</h1>
+    @if (Product) {
+        <form  class="form   p-5" style="width:1411px; margin: auto;">
+
+            <div class="form-group d-flex text-center m-auto mt-2 mb-2 w-25">
+                <label class="form-label" style="width: 103px;color: #58300d;">Title</label>
+                <input #title formControlName="title" value={{Product.title}} type="text" class="form-control w-75" placeholder="Title">
+            </div>
+    
+            <div class="form-group d-flex text-center m-auto mt-2 mb-2 w-25">
+                <label class="form-label" style="width: 107px;color: #58300d;">Description</label>
+                <input #description formControlName="description" value={{Product.description}} type="text" class="form-control w-75 " placeholder="Description">
+            </div>
+    
+            <div class="form-group d-flex text-center m-auto mt-2 mb-2 w-25">
+                <label class="form-label" style="width: 98px;color: #58300d;">Ingredients</label>
+                <input #ingredients formControlName="ingredients" value={{Product.ingredients}} type="text" class="form-control w-75" placeholder="Ingredients">
+            </div>
+    
+            <div class="form-group d-flex text-center m-auto mt-2 mb-2 w-25">
+                <label class="form-label" style="width: 97px;color: #58300d;">Image URL</label>
+                <input #image formControlName="image" type="text" value={{Product.image}} class="form-control w-75" placeholder="Image URL">
+            </div>
+    
+            <div class="form-group d-flex text-center m-auto mt-2 mb-2 w-25">
+                <label class="form-label" style="width: 94px;color: #58300d;">Category</label>
+                <input #category formControlName="category" value={{Product.category}} type="text" class="form-control w-75" placeholder="Category">
+            </div>
+
+            <div class="form-group d-flex text-center m-auto mt-2 mb-2 w-25">
+                <label class="form-label" style="width: 93px;color: #58300d;">Price</label>
+                <input #price formControlName="price" value={{Product.price}} type="text" class="form-control w-75" placeholder="Category">
+            </div>
+            
+            <div style="width: 174px;margin-left: 622px;margin-top: 20px;">
+    
+                <button (click)="Updateprd(title.value,description.value,ingredients.value,image.value,category.value,price.value)"
+                    class="btn" style="margin-right: 9px;background-color: #58300d; color: white; ">UPDATE</button>
+    
+                    
+                <button (click)="Deleteprd()"
+                class="btn " style=" background-color: #58300d; color: white; ">Delete</button>
+            </div>
+        </form>
+    }
+    
+</div>

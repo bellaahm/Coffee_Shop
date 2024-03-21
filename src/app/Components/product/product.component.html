@@ -1,0 +1,41 @@
+
+<!-- test -->
+<div class="col-lg-9" style=" margin: auto;margin-top: 50px; ">
+    <div class="row g-4 justify-content-center">
+        <div class="col-md-6 col-lg-6 col-xl-4" >
+            <div class="rounded position-relative fruite-item" style="    width: 262px; margin: 20px;">
+                <div class="fruite-img">
+                    <img [src]="oneProduct.image" class="img-fluid w-100 rounded-top" style="height: 400px;"
+                        alt="">
+                </div>
+                <div class="text-white px-3 py-1 rounded position-absolute"
+                    style="top: 10px; left: 10px;"></div>
+                <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                    <h4 style="color: #58300d;">{{oneProduct.title}}</h4>
+                    <div >
+                        <p class=" fs-5 fw-bold mb-0" style="color: #58300d;">{{oneProduct.price}} $</p>
+
+                        <button routerLink="/update/{{oneProduct.id}}" class="btn border  rounded-pill px-3 "
+                            style="background-color: #7c3e04; color:white;">Update or Delete</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  <!-- end -->
+
+
+  <!-- <div    class="card m-4 " style="width: 500px;">
+    
+      <img class="card-img h-25" src="assets/images/1.jpg" />
+      
+      <div class="card-img-overlay text-white w-50 m-auto text-center">
+    
+        <h2  class="card-title "><a style="color: rgb(44, 13, 220);text-decoration: none;" routerLink="/products/{{oneProduct.id}}">product ID : {{oneProduct.id}}</a></h2>
+        <h4  class="card-text text-primary">Title : {{oneProduct.title}}</h4>
+        <button class="btn btn-primary" style="background-color: #58300d; color: white;" routerLink="/update/{{oneProduct.id}}">Update or Delete</button>
+    
+      </div>
+    </div> -->
